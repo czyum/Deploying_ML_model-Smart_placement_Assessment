@@ -1,4 +1,4 @@
-# Smart-placement-assessment
+# Deploying ML Model into production(Smart-placement-assessment)
 This gives an insight on how to deploy the trained ML model into production using flask.
 
 *The repository contains all the files for the smart placement assessment application*
@@ -8,3 +8,15 @@ This gives an insight on how to deploy the trained ML model into production usin
 *Flask is used as a backend framework*
 
 *batch_test.csv can be taken as an example ,it gives the insight about the features considered*
+
+Prerequisites
+---------------
+Python(ver 3 and aabove)
+Flask
+All the modules imported in the beginning
+
+Author
+-------
+Chethan N(czyum)
+
+
