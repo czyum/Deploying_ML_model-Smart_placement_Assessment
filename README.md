@@ -11,9 +11,14 @@ This gives an insight on how to deploy the trained ML model into production usin
 
 Prerequisites
 ---------------
-Python(ver 3 and aabove)
+Python(ver 3 and above)
+
 Flask
-All the modules imported in the beginning
+
+(All the modules imported in the beginning)
+
+*For complete working use the RFModel.sav given*
+
 
 Author
 -------
