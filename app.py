@@ -6,13 +6,13 @@ import sklearn
 from werkzeug.utils import secure_filename
 app = Flask(__name__)
 app.secret_key="."
-model=joblib.load("C:\\Users\\cheth\\Desktop\\pbl_datasets\\RFmodel.sav")
+model=joblib.load("C:\\Users\\cheth\\Desktop\\pbl_datasets\\RFmodel.sav")#Change it to your saved model's path
 y_label=None
 company={0:'😓',1:'AMAZON',2:'ARICENT',3:'ATOS',4:'CAPGEMINI',5:'COGNIZANT',6:'DELL',7:'DIRECTI',8:'ENDURANCE',9:'ERICSSON ',10:'FIDELITY',11:'HP',\
     12:'KPIT',13:'METRIC STREAM ',14:'MINDTREE ',15:'MUSIGMA ',16:' NINJAKART ',17:'NOKIA',18:' OFSS ',19:'PHILIPS ',20:'PWC',21:'ROBERT BOSCH ',\
          22:'SANDHAR',23:' SAP LABS ',24:' SASKEN',25:'SIEMENS',26:'SIMEIO',27:'TATA ELXSI ',28:' TECH M ',29:' TEMENOS',30:' WIPRO ',31:'ZETA'} 
         
-            
+#defining functions to process the requests made on to the Home route            
 @app.route("/",methods=["GET","POST"])
 
 
@@ -95,7 +95,7 @@ def index():
         
 
     return render_template("index.html")
-
+#defining functions to process the requests made on to the /batch route   
 @app.route("/batch",methods=["POST","GET"])  
 
 def batch_prediction():
