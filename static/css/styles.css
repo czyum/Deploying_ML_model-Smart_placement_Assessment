@@ -1,0 +1,76 @@
+body{
+    background-color:#1abc9c;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding:30px;
+    
+    align-items: center;;
+    
+}
+
+.skill{
+    width: 400px;
+    
+    word-wrap:break-word;
+}
+
+.marks{
+    width: 200px;
+}
+
+
+
+.inline{
+    margin-right:20px;
+    margin-left: 20px;
+    float: left;
+}
+
+h5{
+    text-align: center;
+}
+
+.button{
+    margin-left: 600px; 
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar :hover {
+    color:black ;
+}
+
+.check{
+    
+    vertical-align:middle;
+}
+
+li {
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+.copy{
+    margin-left: 520px;
+}
+
+.check2{
+    margin-left: 30px;
+}
+
+.skill2{
+    margin-left: 50px;
+    width: 200px;
+}

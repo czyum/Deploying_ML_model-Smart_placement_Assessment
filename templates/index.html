@@ -1,0 +1,204 @@
+{%extends "base.html"%}
+{% block body %}
+
+<h2 style="margin-left: 20px;">Enter the details</h2>
+<form action="/" method="POST">
+  <div class="form-row inline">
+    <div class="form-group col-md-6">
+      <label for="input10th Marks4"><strong>10TH PERCENTAGE</strong></label>
+      <input type="number" step="0.01" class="form-control marks" width=10px placeholder="10th %" name="tenth"
+        min="60" max="100">
+    </div>
+  </div>
+  <div style="margin-bottom: 30px;">
+  <div class="form-row inline">
+    <div class="form-group col-md-6">
+      <label for="inputPUC Marks4"><strong> PUC PERCENTAGE </strong></label>
+      <input type="number" step="0.01" class="form-control marks" name="puc" id="inputPUCMarks4" placeholder="PUC %"
+        name="puc" min="60" max="100">
+    </div>
+  </div>
+
+  <div class="form-row inline">
+    <div class="form-group col-md-6">
+      <label for="inputBE Aggregate"><strong>BE AGGREGATE</strong> </label>
+      <input type="number" step="0.01" class="form-control marks" id="inputBEAggregate" placeholder="BE Aggregate"
+        name="be" min="45" max="100">
+    </div>
+  </div>
+
+  <div class=" form-row inline">
+    <div class="form-group col-md-6">
+      <label for="Branch"><strong>SELECT BRANCH</strong> </label>
+      <select name="branch" class="form-control marks">
+        <option selected>CIV</option>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>ISE</option>
+        <option>MECH</option>
+        <option>TCE</option>
+      </select>
+    </div>
+  </div>
+  <div class=" form-row ">
+    <div class="form-group col-md-6">
+      <label for="inputCurrent Backs"><strong>CURRENT BACKS</strong> </label>
+      <select name="current_backs" id="inputCurrentBacks" class="form-control marks">
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </div>
+  </div>
+</div>
+  <div class="container-fluid">
+    <h4><strong>SKILLSETS</strong></h4>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="software_modeling">
+        <label class="form-check-label skill" for="gridcheck1">
+          SOFTWARE MODELLING
+        </label>
+      </li>
+      </div>
+    
+    
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="web_dev">
+        <label class="form-check-label skill2" for="gridcheck1">
+          WEB DEVELOPMENT
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="c_data_struct">
+        <label class="form-check-label skill" for="gridcheck1">
+          C AND DATA STRUCTURES
+        </label>
+      </li>
+      </div>
+    
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="program_lang">
+        <label class="form-check-label skill2" for="gridcheck1">
+          OTHER PROG LANG
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="algorithm">
+        <label class="form-check-label skill" for="gridcheck1">
+          ALGORITHMS
+        </label>
+      </li>
+      </div>
+    
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="os">
+        <label class="form-check-label skill2" for="gridcheck1">
+          OPERATING SYSTEM
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="dbms_query">
+        <label class="form-check-label skill" for="gridcheck1">
+          DBMS AND QUERYING
+        </label>
+      </li>
+      </div>
+   
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="data_analysis">
+        <label class="form-check-label skill2" for="gridcheck1">
+          DATA ANALYSIS
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="oops">
+        <label class="form-check-label skill" for="gridcheck1">
+          OBJ ORIENTED CONCEPTS
+        </label>
+      </li>
+      </div>
+   
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="cn">
+        <label class="form-check-label skill2" for="gridcheck1">
+          COMPUTER NETWORKING
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="shell">
+        <label class="form-check-label skill" for="gridcheck1">
+          SHELL SCRIPTING
+        </label>
+      </li>
+      </div>
+    
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="circuits_control_sys">
+        <label class="form-check-label skill2" for="gridcheck1">
+          CIRCUITS AND CONTROL SYSTEMS
+        </label>
+      </li>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-2">
+        <li>
+        <input class="form-check-input check" type="checkbox" id="gridcheck1" name="matlab">
+        <label class="form-check-label skill" for="gridcheck1">
+          MATLAB
+        </label>
+      </li>
+      </div>
+    
+    <div class="col-sm-2">
+      <li>
+        <input class="form-check-input check2" type="checkbox" id="gridcheck1" name="dsp">
+        <label class="form-check-label skill2" for="gridcheck1">
+          DIGITAL SIGNAL PROCESSING
+        </label>
+      </li>
+      </div>
+    </div>
+  </div>
+
+  <p class="mt-5 mb-3 text-muted copy">Press submit to get the results</p>
+  <div class="form-group row">
+    <div class="col-sm-">
+      <button type="submit " class="btn btn-primary button">Submit</button>
+    </div>
+  </div>
+
+
+
+</form>
+{%  endblock %}

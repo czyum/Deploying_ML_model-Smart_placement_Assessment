@@ -1,0 +1,12 @@
+{%extends "base.html"%}
+{% block body %}
+
+      <form action = "/batch" method = "POST" 
+         enctype = "multipart/form-data">
+         <h4>Choose the file containing student information</h4>
+         <input type = "file" name = "file"  />
+         <br>
+         <input  class="btn btn-primary button" type = "submit"/>
+      </form>
+
+{%  endblock %}
