@@ -1,2 +1,8 @@
 # Smart-placement-assessment
 This gives an insight on how to deploy the trained ML model into production using flask.
+
+*The repository contains all the files for the smart placement assessment application*
+
+*The trained model is saved as .sav file(Your own model can be used)*
+
+*Flask is used as a backend framework*
