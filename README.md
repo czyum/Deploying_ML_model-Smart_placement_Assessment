@@ -17,7 +17,7 @@ Flask
 
 (All the modules imported in the beginning)
 
-*For complete working use the RFModel.sav given*
+*For complete working ,use the RFModel.sav given*
 
 
 Author
